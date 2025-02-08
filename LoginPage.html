@@ -6,28 +6,30 @@
         </h1>
     </head>
     <body>
-        <label for="fusername">
-            Username:
-        </label>
-        <input type="username" id="username" name="username">
+        <form action="choosecrop.html" method="get">
+            <label for="username">
+                Username:
+            </label>
+            <input type="text" id="username" name="username" required>
 
+            <br>
+            <label for="password">
+                Password:
+            </label>
+            <input type="password" id="password" name="password" required>
+            <br>
 
-        <br>
-        <label for="password">
-            password:
-        </label>
-        <input type="password" id="password" name="Password">
-        <br>
-        <input type="submit" value="Submit">
+            
+            <input type="submit" value="Submit">
+        </form>
+        
+        <div id="message">
+            <h3>Password must contain the following:</h3>
+            <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+            <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+            <p id="number" class="invalid">A <b>number</b></p>
+            <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+        </div>
     </body>
-
-    <div id="message">
-        <h3>Password must contain the following:</h3>
-        <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
-        <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
-        <p id="number" class="invalid">A <b>number</b></p>
-        <p id="length" class="invalid">Minimum <b>8 characters</b></p>
-      </div>
-    
-
 </html>
+
