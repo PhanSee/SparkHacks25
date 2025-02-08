@@ -1,0 +1,10 @@
+body{
+    background-color: lightcyan;
+}
+
+p{
+    border: 1px solid;
+    border-color: aquamarine;
+    padding: 20px;
+
+}
