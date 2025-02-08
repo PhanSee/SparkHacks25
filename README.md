@@ -37,25 +37,10 @@ Thank you to our mentors for their continued support and endless patience in hel
 
 ## **FAQ**
 
-**Q:** What is Project Title?
+**Q:** What is Farm Watering Calculator?
 
-**A:** Project Title is a project that does something useful.
+**A:** Farm Watering Calculator is designed to use local weather patterns to decide when is the most optimal time to water crops.
 
-**Q:** How do I install Project Title?
-
-**A:** Follow the installation steps in the README file.
-
-**Q:** How do I use Project Title?
-
-**A:** Follow the usage steps in the README file.
-
-**Q:** How do I contribute to Project Title?
-
-**A:** Follow the contributing guidelines in the README file.
-
-**Q:** What license is Project Title released under?
-
-**A:** Project Title is released under the MIT License. See the **[LICENSE](https://www.blackbox.ai/share/LICENSE)** file for details.
 
 
 ## **Conclusion**
